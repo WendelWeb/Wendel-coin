@@ -1,0 +1,24 @@
+@import "settings";
+@import "./components/table";
+@import "./components/coinChart";
+@import "./components/header";
+
+footer{
+    border-radius: 7.5px;
+    padding: 10px;
+    text-align: center;
+    background: black;
+  @media (max-width:500px) {
+    .space{
+      display: block;
+      margin: 10px ;
+    }
+  }
+  a{
+    color: green;
+  }
+  a:hover{
+    text-decoration: none;
+    color: #eca236;
+  }
+}
